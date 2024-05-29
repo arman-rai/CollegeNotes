@@ -1,0 +1,70 @@
+CSC 169 Statistics I note (pure nepali dekhine sir) 
+
+### Descriptive Statistics Overview
+- **Purpose**: Describe and summarize data meaningfully.
+- **Does not**: Allow conclusions beyond analyzed data.
+
+### Types of Analysis
+1. **Univariate Analysis**: Examines one variable (e.g., age).
+   - Focus: Description
+2. **Bivariate Analysis**: Examines two variables simultaneously (e.g., relationship between gender and height).
+   - Focus: Empirical relationship between two variables
+3. **Multivariate Analysis**: Examines more than two variables simultaneously (e.g., relationship among gender, caste, and height).
+   - Focus: Empirical relationship among multiple variables
+
+### Descriptive vs. Inferential Statistics
+- **Descriptive Statistics**: 
+  - Describe and summarize data.
+  - Initial step in data analysis for understanding data distribution.
+- **Inferential Statistics**:
+  - Make predictions/inferences about a population from a sample.
+  - Generalize results to a larger population.
+
+### Key Concepts in Univariate Analysis
+- **Frequency Distribution**: Snapshot of a variable's values.
+- **Central Tendency Measures**:
+  - **Mean**: Average value.
+  - **Median**: Middle value.
+  - **Mode**: Most frequent value.
+- **Dispersion Measures**:
+  - **Range**: Difference between highest and lowest values.
+  - **Variance**: Average of squared deviations from the mean.
+  - **Standard Deviation**: Square root of variance.
+
+### Measurement Scales
+- **Nominal Scale**: Categories without order (e.g., gender, nationality).
+  - Analysis: Frequency, percentage, mode.
+- **Ordinal Scale**: Ordered categories (e.g., education level, rating).
+  - Analysis: Frequency, percentage, mode, median.
+- **Interval Scale**: Quantitative values with arbitrary zero (e.g., temperature).
+  - Analysis: Mean, median, t-test, f-test.
+- **Ratio Scale**: Quantitative values with a true zero (e.g., weight, height).
+  - Analysis: Mean, median, t-test, f-test, correlation.
+
+### Central Tendency and Dispersion
+- **When to use**:
+  - **Nominal Data**: Mode
+  - **Ordinal Data**: Mode and/or median
+  - **Interval/Ratio Data**: Mean, median, and/or mode
+- **Standard Deviation**:
+  - Indicates spread and consistency.
+  - Sensitive to outliers.
+
+### Visual Representation
+- **Frequency Distribution**:
+  - Tabular or graphical (bar charts, pie charts, line charts).
+
+### Normal Distribution
+- **Tests**:
+  - **Shapiro-Wilk Test**: Suitable for small to moderate-sized datasets.
+  - **Visual Inspection**: For larger datasets using histograms or Q-Q plots.
+
+### Shapiro-Wilk Test in SPSS
+1. Analyze → Descriptive Statistics → Explore.
+2. Move variables to "Dependent List".
+3. Plots → Check "Normality plots with tests".
+4. Continue → OK.
+5. Interpret p-value:
+   - p > 0.05: Data is normally distributed (fail to reject null hypothesis).
+
+Use these notes to reinforce key concepts and methods in descriptive statistics for frequent and effective revision.
